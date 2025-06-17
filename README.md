@@ -54,3 +54,17 @@ Install with:
 ```bash
 pip install scapy
 ```
+---
+To start the program use
+```bash
+sudo python3 netpulse.py
+```
+---
+Command line option
+Flag	      Description         	             Default
+--target	Target IP address	                   Required
+--port	     Target port	                       80
+--method 	 Method: udp, tcp, http, syn	         udp
+--time     Duration of test in seconds           30
+--threads	 Number of threads	                   10
+
