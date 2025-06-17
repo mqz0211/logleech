@@ -60,11 +60,13 @@ To start the program use
 sudo python3 netpulse.py
 ```
 ---
-Command line option
-Flag	      Description         	             Default
---target	Target IP address	                   Required
---port	     Target port	                       80
---method 	 Method: udp, tcp, http, syn	         udp
---time     Duration of test in seconds           30
---threads	 Number of threads	                   10
+### 🧾 Command-line Flags
+
+| Flag         | Description                                | Default     |
+|--------------|--------------------------------------------|-------------|
+| `--target`   | Target IP address                          | **Required**|
+| `--port`     | Target port                                | `80`        |
+| `--method`   | Attack method: `udp`, `tcp`, `http`, `syn` | `udp`       |
+| `--time`     | Duration of attack in seconds              | `30`        |
+| `--threads`  | Number of parallel threads                 | `10`        |
 
