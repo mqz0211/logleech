@@ -72,7 +72,6 @@ sudo python3 netpulse.py
 
 ## 🚀 Usage
 
-...
 
 ### 🧾 Command-line Flags
 
